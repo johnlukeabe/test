@@ -17,4 +17,3 @@ while True:
 	print('[python pid:{}] got connection from {}'.format(getpid(), client.getpeername()))
 	client.send('Hello from Python process {}\n'.format(getpid()))
 	client.close()
-
